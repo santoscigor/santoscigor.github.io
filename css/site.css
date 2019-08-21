@@ -1,6 +1,6 @@
 body {
     font-family: "Crimson Text", "Times New Roman", serif;
-    background-color: #F2FFFC;
+    background-color: #EEE3AB;
     font-size: 120%;
     line-height: 1.5;
 }
@@ -18,7 +18,7 @@ h1 {
 
 .titulo-principal {
     text-align: center;
-    background-color: #851944;
+    background-color: #5496b8;
     color: #FFF;
     padding: 2rem;
     border-bottom: .5rem solid #000;
@@ -34,7 +34,7 @@ h1 {
 }
 
 main a {
-    color: #851944;
+    color: #5496b8;
 }
 
 main p {
