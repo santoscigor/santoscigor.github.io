@@ -1,3 +1,21 @@
+
+main{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: auto 1fr auto;
+
+    }
+}
+
+
 .citacao-bio {
     background-color: #D9E5E3;
     border: .5em solid #C2CCCA;
@@ -33,7 +51,7 @@
 .container > p::first-letter{
     font-size: 2em;
     font-weight: bold;
-    color: #3C1D3D;
+    color:  rgba(54, 57, 70, 1);;
     text-shadow: 1px, 1px, 2px, black;
     margin-right: .2ch;
     line-height: 1;
@@ -56,7 +74,6 @@ blockquote > p::before{
     position: relative;
 }
 
-/*
 .petrobras {
     float: left;
     margin-left: 0;
@@ -66,4 +83,3 @@ blockquote > p::before{
     float: right;
     margin-right: 0;
 }
-*/

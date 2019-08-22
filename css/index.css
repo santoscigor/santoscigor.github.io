@@ -12,6 +12,10 @@
     font-size: 3em;
     color: #889;
 }
+.saudacao-meio{
+    text-align: center;
+    display: block;
+}
 .saudacao-ultima-linha {
     text-align: right;
     display: block;
