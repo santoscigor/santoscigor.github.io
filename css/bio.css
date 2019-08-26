@@ -1,20 +1,36 @@
+@media (max-width: 768px) {
+    .navegacao-site{
+        display: none;
+    }
 
-main{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    min-height: 100vh;
-}
+    footer{
+        display: none;
+    }
 
-@media (min-width: 768px) {
-    main {
-        display: grid;
-        grid-template-columns: 200px 1fr 200px;
-        grid-template-rows: auto 1fr auto;
+    main{
+        width: 100%;
+    }
+
+    main > div{
+        margin: 2em;
+    }
+
+    header > h1 > img{
+        float: right;
+        width: 2em;
+        height : 2em;
 
     }
+
 }
 
+header > h1 > img{
+    display: none;
+}
+
+main > div{
+    margin: 1em;
+}
 
 .citacao-bio {
     background-color: #D9E5E3;
