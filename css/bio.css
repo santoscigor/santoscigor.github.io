@@ -2,7 +2,7 @@ main > div{
     margin: 1em;
 }
 
-main-text{
+.main-text{
     margin-top: 8rem;
     padding: 5rem;   
 }
