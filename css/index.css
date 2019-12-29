@@ -49,6 +49,11 @@
     border-radius: 50%;
 }
 
+.saudacao a{
+    text-decoration: none;
+    color: #889;
+}
+
 .saudacao p {
     font-size: 1.5em;
     color: #99A;
@@ -65,6 +70,11 @@
     text-align: center;
     display: block;
 }
+
+.saudacao a:hover{
+    color: #889;
+}
+
 .saudacao-ultima-linha {
     text-align: right;
     display: block;

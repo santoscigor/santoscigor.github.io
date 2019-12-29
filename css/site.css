@@ -11,6 +11,13 @@ body {
     padding: 2em;
 }
 
+.header-container {
+    display: flex; 
+    max-width: 1330px; 
+    flex: 1 1 auto; 
+    margin:auto;
+}
+
 .header-container-titulo{
     margin-left: 5px;
     display: flex;
