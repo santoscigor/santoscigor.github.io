@@ -1,0 +1,29 @@
+#Sobre mim
+##Sobre Trabalho
+Bastante curioso por frameworks modinhas, música e sistemas embarcados.
+
+Adorador de Javascript e seus frameworks, ASP.NET Core, Python, C#.
+Entusiasta por Desenvolvimento Mobile e a utilização de Frameworks modinhas como Vue, React e Angular.
+
+Já trabalhei com ASP.NET utilizando C#, SQL Server, muita orientação a objetos e APIs RESTful com Java, 
+muito JavaScript tanto no back quanto no front e até mesmo com coisas incomuns como XPages e PowerBuilder. 
+Também já atuei até mesmo com o design de circuitos utilizando Verilog! 
+
+Também possuo experiência com tecnologias como Node, Vue, React, Nest JS...
+
+Bastante curioso, nasci em Salvador mas não tenho problemas quanto a localização (Principalmente na era remota). Sou conhecido principalmente pela curiosidade em aprender coisas novas,
+e por buscar manter a *qualidade* nos códigos, *simplicidade* nas soluções e código limpo, com serviços que agregam valor para as minhas soluções.
+**AMO** aprender novas tecnologias, por isso sempre estou lendo ou fazendo projetos por menor que seja envolvendo alguma hipsteria.
+
+##E fora do trabalho?
+
+Uma pessoa que procura tranquilidade e serenidade, jogar seu videogame, curtir boas experiências gastronômicas e fazer do
+mundo um lugar melhor (Com o foco em pessoas que são o meu espelho, e tem a minha pele). Adoro esportes, particularmente
+os esportes cooperativos (Estou falando sério), Futebol, Vôlei, Basquete, Handebol, Rugby, Pólo Aquático... o que imaginar!
+
+Amo fazer a valorização de culturas não eurocentristas, e principalmente tudo o que remete a cultura dos meus ancestrais
+Pan-afro e americanos.
+
+
+
+
