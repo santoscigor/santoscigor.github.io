@@ -39,15 +39,6 @@ main > div{
     margin-left: 0;
 }
 
-.container > p::first-letter{
-    font-size: 2em;
-    font-weight: bold;
-    color:  rgba(54, 57, 70, 1);;
-    text-shadow: 1px, 1px, 2px, black;
-    margin-right: .2ch;
-    line-height: 1;
-}
-
 blockquote > cite{
     float: right;
 }
