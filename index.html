@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <title>Igor Santos - Desenvolvedor Web</title>
-    <link rel="shortcut icon" href="imagens/favicon.png">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/site.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
-</head>
-<body>
-    <header class="titulo-principal">
-        <div class="header-container">
-            <img class="minha-foto" src="imagens/eu.jpg" alt="Minha Foto">
-            <div class="header-container-titulo">
-                <h1>Igor Costa</h1>
-                <p class="subtitulo-principal">Desenvolvedor web</p>
-            </div>
-            <nav class="navegacao-site">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#portfolio.html">Portfolio</a></li>
-                    <li><a href="bio.html">Sobre</a></li>
-                    <li><a href="#blog.html">Histórias</a></li>
-                    <li><a href="#contato.html">Contato</a></li>
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <title>Igor Santos - Desenvolvedor Web</title>
+        <link rel="shortcut icon" href="imagens/favicon.png">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
+
+        <!-- <link rel="stylesheet" href="css/reset.css"> -->
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/index.css">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    </head>
+    <body>
+        <header>
+            <nav style="background-color: lightskyblue;">
+                <div class="nav-wrapper">
+                    <a href="newindex.html" class="brand-logo left" style="padding-left: 0.5em">
+                        <div class="header-container-titulo">
+                            <p style="margin: 0">Igor Costa</p>
+                        </div>
+                    </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="bio.html">Sobre</a></li>
+                    </ul>
+                </div>
             </nav>
-        </div>    
-        <!-- <a class="banner-twitter" href="https://www.linkedin.com/in/igor-costa-63154767/">Me acompanhe no LinkedIn</a> -->
-    </header>
-    <main>
-        <section class="secao-inicio saudacao">
+            
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bio.html">Sobre</a></li>
+            </ul>
+        </header>
+        <main>
+            <section class="secao-inicio saudacao">
+                <div class="container">
+                    <p class="saudacao"><a href="bio.html">
+                        <span class="saudacao-inicio">Uma </span> <strong>stack inteira,</strong>
+                        <span class="saudacao-meio"> de boas práticas </span> 
+                        <span class="saudacao-ultima-linha">e <em>Curiosidade</em></span></a>
+                    </p>
+                    <a class="botao-index" href="bio.html">Veja mais</a>
+                </div>
+            </section>
+        </main>
+        <footer>
             <div class="container">
-                <p class="saudacao"><a href="bio.html">
-                    <span class="saudacao-inicio">Uma </span> <strong>stack inteira,</strong>
-                    <span class="saudacao-meio"> de boas práticas </span> 
-                    <span class="saudacao-ultima-linha">e <em>Curiosidade</em></span></a>
-                </p>
-                <a class="botao-index" href="bio.html">Veja mais</a>
+                <img class="minha-foto" src="imagens/eu.jpg" alt="Minha Foto">
+                <h2>Vamos conversar?</h2>
+                <p>Você pode entrar em contato comigo <a href="mailto:santoscigor@gmail.com">por e-mail(em breve)</a> ou pelo telefone <a href="tel:+5571994054423">(71) 994 054 423</a></p>
             </div>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <h2>Vamos conversar?</h2>
-            <p>Você pode entrar em contato comigo <a href="#">por e-mail(em breve)</a> ou pelo telefone <a href="tel:+5571994054423">(71) 994 054 423</a></p>
-        </div>
-    </footer>
-</body>
+        </footer>
+
+        <script type="text/javascript" src="js/materialize.js"></script>
+        <script type="text/javascript" src="js/site.js"></script>
+    </body>
 </html>

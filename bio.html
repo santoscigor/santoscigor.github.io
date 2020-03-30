@@ -4,7 +4,7 @@
         <title>Igor Costa - Sobre</title>
         <meta charset="utf-8">
         <link rel="icon" href="imagens/favicon.png">
-        <link rel="stylesheet" href="css/reset.css">
+        <!-- <link rel="stylesheet" href="css/reset.css"> -->
         <link rel="stylesheet" href="css/site.css">
         <link rel="stylesheet" href="css/bio.css">
         <!-- carrega a fonte Crimson Text nas versões normal, itálico e negrito -->
@@ -12,41 +12,33 @@
         <!-- carrega a fonte Open Sans Condensed na versão negrito, -->
         <!-- que é a única necessária para os cabeçalhos            -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     </head>
     <body>
-        <header class="titulo-principal">
-            <div class="header-container">
-                <img class="minha-foto" src="imagens/eu.jpg" alt="Minha Foto">
-                <div class="header-container-titulo">
-                    <h1>Igor Costa</h1>
-                    <p class="subtitulo-principal">Desenvolvedor web</p>
-                </div>
-                <nav class="navegacao-site">
-                    <ul>
+        <header>
+            <nav style="background-color: lightskyblue;">
+                <div class="nav-wrapper">
+                    <a href="newindex.html" class="brand-logo left" style="padding-left: 0.5em">
+                        <div class="header-container-titulo">
+                            <p style="margin: 0">Igor Costa</p>
+                        </div>
+                    </a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#portfolio.html">Portfolio</a></li>
                         <li><a href="bio.html">Sobre</a></li>
-                        <li><a href="#blog.html">Histórias</a></li>
-                        <li><a href="#contato.html">Contato</a></li>
                     </ul>
-                </nav>
-            </div>    
+                </div>
+            </nav>
+            
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bio.html">Sobre</a></li>
+            </ul>
             <!-- <a class="banner-twitter" href="https://www.linkedin.com/in/igor-costa-63154767/">Me acompanhe no LinkedIn</a> -->
         </header>
-        <aside>
-            <ul class="icones-redes-sociais">
-                <li>
-                    <a href="https://github.com/santoscigor" class="github">
-                        Github
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/igor-costa-63154767/" class="linkedin">
-                        LinkedIn
-                    </a>
-                </li>
-            </ul>  
-        </aside>
         <main>
             <div class="container main-text">
                 <h1>Sobre mim </h1> 

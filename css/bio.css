@@ -2,11 +2,6 @@ main > div{
     margin: 1em;
 }
 
-.main-text{
-    margin-top: 8rem;
-    padding: 5rem;   
-}
-
 .citacao-bio {
     background-color: #D9E5E3;
     border: .5em solid #C2CCCA;

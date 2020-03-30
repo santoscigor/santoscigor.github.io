@@ -19,7 +19,7 @@ body {
 }
 
 .header-container-titulo{
-    margin-left: 5px;
+    margin-left: 1em;
     display: flex;
     flex: 1 1 auto;
     flex-direction: column
@@ -27,18 +27,6 @@ body {
 
 em {
     font-style: italic;
-}
-
-header{
-    position: fixed;
-    display: flex;
-    top: 0;
-    left: 0;
-    right: 0;
-    border-bottom: 1px solid #000;
-    background: #5496b8;
-    z-index: 2;
-    
 }
 
 h1,
@@ -89,16 +77,12 @@ h1 {
     display: inline-block;
 }
 
-ul li{
-    margin: 5px;
-}
-
 main {
     padding-bottom: 4em;
 }
 
 main a {
-    color: #5496b8;
+    color: lightskyblue;
 }
 
 main a:hover,
@@ -120,13 +104,13 @@ main p {
     border-radius: 50%;
 }
 
-nav{
-    float: right;
+ul li{
+    margin: 5px;
 }
 
 .navegacao-site {
     text-align: center;
-    background-color: #5496b8;
+    background-color: lightskyblue;
     color: #F2FFFC;
 }
 
@@ -181,16 +165,12 @@ strong {
 
 .titulo-principal {
     text-align: center;
-    background-color: #5496b8;
+    background-color: lightskyblue;
     color: #FFF;
     padding: 2rem;
     border-bottom: .5rem solid #000;
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
-}
 
 /*Ícones*/
 
