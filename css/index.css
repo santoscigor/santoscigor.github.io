@@ -53,21 +53,30 @@
     text-decoration: none;
 }
 
+.saudacao p{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .saudacao p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: #99A;
-    line-height: 1;
-    padding: 2em;
+    line-height: 2rem;
+    padding: 1rem;
     max-width: 1330px;
     margin: auto;
 }
 .saudacao-inicio {
-    font-size: 3em;
+    display: flex;
+    font-size: 1.9rem;
     color: #889;
+    flex: 1 1 auto;
 }
 .saudacao-meio{
-    text-align: center;
     display: block;
+    flex: 1 1 auto;
 }
 
 .saudacao a:hover{
@@ -75,16 +84,17 @@
 }
 
 .saudacao-ultima-linha {
-    text-align: right;
+    flex: 1 1 auto;
     display: block;
 }
 .saudacao strong {
-    font-size: 2em;
+    padding-left: 0.5rem;
+    flex: 1 1 auto;
     color: #000;
 }
 .saudacao em {
     color: lightskyblue;
-    font-size: 4em;
+    font-size: 2rem;
     -webkit-transform: rotate(-5deg) skew(-10deg);
             transform: rotate(-5deg) skew(-10deg);
     display: inline-block;
