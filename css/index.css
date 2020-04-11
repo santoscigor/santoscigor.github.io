@@ -49,6 +49,16 @@
     border-radius: 50%;
 }
 
+footer > .container{
+    display: flex;
+    flex-flow: wrap;
+}
+
+footer > .container > p{
+    margin:auto;
+    padding-bottom: 1rem;
+}
+
 .saudacao a{
     text-decoration: none;
 }
@@ -184,11 +194,6 @@ body {
     right: 0;
 
     line-height: 1;
-
-    /* largura = 14em */
-    /* altura = 3.5em */
-    /* tx = .707 * h - .707 * w + w */
-    /* ty = -.707 * h */
     -webkit-transform: translate(8.5765rem, -2.4745rem) rotate(45deg);
             transform: translate(8.5765rem, -2.4745rem) rotate(45deg);
     -webkit-transform-origin: 0 0;
