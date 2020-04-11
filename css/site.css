@@ -8,7 +8,7 @@ body {
 .container {
     max-width: 1330px;
     margin: auto;
-    padding: 2em;
+    padding: 2rem;
 }
 
 .header-container {
@@ -19,7 +19,7 @@ body {
 }
 
 .header-container-titulo{
-    margin-left: 1em;
+    margin-left: 1rem;
     display: flex;
     flex: 1 1 auto;
     flex-direction: column
@@ -37,7 +37,7 @@ h2,
 
 h1 {
     text-shadow: 2px 2px #000;
-    font-size: 3em;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
@@ -53,12 +53,12 @@ h1 {
 .icones-redes-sociais a:focus::before {
     content: '';
     background-color: black;
-    width: 1em;
-    height: 1em;
+    width: 1rem;
+    height: 1rem;
     position: absolute;
     bottom: 0;
     left: 0;
-    transform: translateY(.8em) rotate(45deg);
+    transform: translateY(.8rem) rotate(45deg);
 }
 
 .icones-redes-sociais a:hover::after,
@@ -70,7 +70,7 @@ h1 {
     text-indent: 0;
     width: 300%;
     background: black;
-    font-size: .75em;
+    font-size: .75rem;
 }
 
 .icones-redes-sociais li {
@@ -78,7 +78,7 @@ h1 {
 }
 
 main {
-    padding-bottom: 4em;
+    padding-bottom: 4rem;
 }
 
 main a {
@@ -94,7 +94,7 @@ footer a:focus{
 
 main p {
     text-align: justify;
-    margin: 1em 0;
+    margin: 1rem 0;
 }
 
 .minha-foto {
@@ -115,7 +115,7 @@ ul li{
 }
 
 .navegacao-site {
-    padding: 1em;
+    padding: 1rem;
     display: flex;
     flex: 5 5 auto;
     justify-content: flex-end;
@@ -129,14 +129,14 @@ ul li{
 }
 
 .navegacao-site h1 {
-    font-size: 1.5em;
-    margin-bottom: 1em;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .rodape-pagina {
     /*background-color: #000;*/
     color: #F2FFFC;
-    padding: 1em;
+    padding: 1rem;
     clear: both;
     position: fixed;
     bottom: 0;
@@ -159,7 +159,7 @@ strong {
 }
 
 .subtitulo-texto {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     clear: both;
 }
 

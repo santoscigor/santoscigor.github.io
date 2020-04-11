@@ -1,37 +1,5 @@
 main > div{
-    margin: 1em;
-}
-
-.citacao-bio {
-    background-color: #D9E5E3;
-    border: .5em solid #C2CCCA;
-    padding: 1em;
-    margin: 1em 2em;
-    width: 30ch;
-    box-sizing: border-box;
-}
-
-.citacao-bio:nth-of-type(odd){
-    float: right;
-    margin-right: 0;
-}
-
-.citacao-bio:nth-of-type(odd):hover,
-.citacao-bio:nth-of-type(odd):focus{
-   transform: scale(1.2) rotate(5deg);
-   box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
-
-}
-
-.citacao-bio:nth-of-type(even):hover,
-.citacao-bio:nth-of-type(even):focus{
-   transform: scale(1.2) rotate(-5deg);
-   box-shadow: 0 0 0 9999px rgba(0, 0, 0, .8);
-}
-
-.citacao-bio:nth-of-type(even){
-    float: left;
-    margin-left: 0;
+    margin: 1rem;
 }
 
 blockquote > cite{
@@ -42,21 +10,7 @@ blockquote > p::before{
     content: "“";
     color: #BBB;
     position: absolute;
-    font-size: 10em;
+    font-size: 10rem;
     line-height: .7;
 
-}
-
-.citacao-bio > p {
-    position: relative;
-}
-
-.petrobras {
-    float: left;
-    margin-left: 0;
-}
-
-.fiat {
-    float: right;
-    margin-right: 0;
 }
