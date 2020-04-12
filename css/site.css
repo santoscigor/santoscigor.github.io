@@ -11,6 +11,28 @@ body {
     padding: 2rem;
 }
 
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2rem;
+}
+footer h2 {
+    font-size: 3rem;
+}
+footer a {
+    color: #F99;
+}
+
+footer > .container{
+    display: flex;
+    flex-flow: wrap;
+}
+
+footer > .container > p{
+    margin:auto;
+    padding-bottom: 1rem;
+}
+
 .header-container {
     display: flex; 
     max-width: 1330px; 

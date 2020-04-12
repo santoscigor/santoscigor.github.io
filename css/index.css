@@ -49,16 +49,6 @@
     border-radius: 50%;
 }
 
-footer > .container{
-    display: flex;
-    flex-flow: wrap;
-}
-
-footer > .container > p{
-    margin:auto;
-    padding-bottom: 1rem;
-}
-
 .saudacao a{
     text-decoration: none;
 }
@@ -157,17 +147,6 @@ footer > .container > p{
     box-shadow: 0 0 4px #000;
 }
 
-footer {
-    background-color: #000;
-    color: #FFF;
-    padding: 2rem;
-}
-footer h2 {
-    font-size: 3rem;
-}
-footer a {
-    color: #F99;
-}
 main {
     width: 100%;
     padding-bottom: 0;
