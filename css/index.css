@@ -1,3 +1,10 @@
+/* Animation Keyframe */
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+/*  */
+
 .blog {
     background-color: #999;
     position: relative;
@@ -73,6 +80,7 @@
     font-size: 2.1rem;
     color: #889;
     flex: 1 1 auto;
+    animation: fade-in 1.5s linear;
 }
 .saudacao-meio{
     display: block;
@@ -80,6 +88,7 @@
     flex: 1 1 auto;
     padding: 0.3rem;
     padding-bottom: 0.4rem;
+    animation: fade-in 4.5s ease;
 }
 
 .saudacao a:hover{
@@ -89,6 +98,7 @@
 .saudacao-ultima-linha {
     flex: 1 1 auto;
     display: block;
+    animation: fade-in 7s ease-in-out;
 }
 .saudacao strong {
     padding-left: 0.5rem;
