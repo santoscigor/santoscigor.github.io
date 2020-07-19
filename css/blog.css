@@ -1,3 +1,33 @@
+.card{
+    border: 1px solid black;
+    padding: 1rem;
+    box-shadow: 1rem solid black;
+    border-radius: 1rem;
+}
+
+.highlight-grid{
+    display: grid;
+}
+
+.highlight-content{
+    grid-area: content;
+}
+
+.highlight-image{
+    grid-area: img;
+}
+
+.highlight-template-columns{
+    grid-template-columns: 2fr 1fr;
+}
+
+.highlight-template-areas{
+    grid-template-areas: 
+    "img content content"
+    "img content content"
+    "img content content";
+}
+
 .leia-mais {
     padding: .5em;
     margin: 1em;
