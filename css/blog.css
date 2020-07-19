@@ -1,8 +1,7 @@
 .card{
-    border: 1px solid black;
+    border: 1px solid lightskyblue;
     padding: 1rem;
-    box-shadow: 1rem solid black;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .highlight-grid{
@@ -11,6 +10,7 @@
 
 .highlight-content{
     grid-area: content;
+    padding: 0.5rem;
 }
 
 .highlight-image{
@@ -35,6 +35,9 @@
     font-size: 1.5em;
     text-align: center;
     background-color: #E6E7E8;
+}
+.posts-cards{
+    display: flex;
 }
 .post-blog + .post-blog{
     /* trocamos padding-bottom e margin-bottom por
