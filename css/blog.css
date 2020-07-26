@@ -1,3 +1,33 @@
+.card{
+    border: 1px solid #000;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.highlight-grid{
+    display: grid;
+}
+
+.highlight-content{
+    grid-area: content;
+    padding: 0.5rem;
+}
+
+.highlight-image{
+    grid-area: img;
+}
+
+.highlight-template-columns{
+    grid-template-columns: 2fr 1fr;
+}
+
+.highlight-template-areas{
+    grid-template-areas: 
+    "img content content"
+    "img content content"
+    "img content content";
+}
+
 .leia-mais {
     padding: .5em;
     margin: 1em;
@@ -5,6 +35,9 @@
     font-size: 1.5em;
     text-align: center;
     background-color: #E6E7E8;
+}
+.posts-cards{
+    display: flex;
 }
 .post-blog + .post-blog{
     /* trocamos padding-bottom e margin-bottom por

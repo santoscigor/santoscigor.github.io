@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt">
     <head>
-        <title>Homepage | Igor Santos</title>
+        <title>Blog | Igor Santos</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
         <meta name="author" content="Igor Santos">
-        <meta name="description" content="Seja bem vindo ao meu site! Aqui você descobrirá sobre mim, 
-        e encontrar conteúdos sobre desenvolvimento web.">
+        <meta name="description" content="Seja bem vindo ao meu site! Aqui você encontra conteúdos 
+        sobre desenvolvimento web.">
 
         <link rel="shortcut icon" href="imagens/favicon.png">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
-        
+
         <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
         <link rel="stylesheet" href="css/site.css">
-        <link rel="stylesheet" href="css/index.css">
-        
+        <link rel="stylesheet" href="css/blog.css">
+
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
@@ -45,16 +44,19 @@
             </ul>
         </header>
         <main>
-            <section class="secao-inicio saudacao">
-                <div class="container">
-                    <p class="saudacao">
-                        <span class="saudacao-inicio">Uma <strong>stack inteira,</strong></span> 
-                        <span class="saudacao-meio"> de boas práticas</span> 
-                        <span class="saudacao-ultima-linha">e <em>Curiosidade</em></span></a>
-                    </p>
-                </div>
-            </section>
-        </main>
+            <div class="container main-text">
+                <section class="highlight-grid">
+                    <div class="card highlight-grid highlight-template-areas">
+                        <div class="highlight-content">
+                            <h2>Ops, encontrei nada :(</h2>
+                            <p>Mas fique atento, em breve haverá discussões novas por aqui!</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="posts-cards">
+                </section>
+            </div>        
+        </main>    
         <footer>
             <div class="container">
                 <img class="minha-foto" src="imagens/eu.jpg" alt="Minha Foto">
@@ -79,8 +81,9 @@
                 </ul>
             </div>
         </footer>
-
+        
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/site.js"></script>
-    </body>
+    </body>    
+    
 </html>

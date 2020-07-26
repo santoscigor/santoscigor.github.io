@@ -20,7 +20,7 @@ footer h2 {
     font-size: 3rem;
 }
 footer a {
-    color: #F99;
+    color: lightskyblue;
 }
 
 footer > .container{
@@ -33,34 +33,25 @@ footer > .container > p{
     padding-bottom: 1rem;
 }
 
-.header-container {
-    display: flex; 
-    max-width: 1330px; 
-    flex: 1 1 auto; 
-    margin:auto;
+.gap {
+	gap: 20px;
 }
 
-.header-container-titulo{
-    margin-left: 2rem;
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column
+header{
+    text-shadow: 0.05rem 0.05rem #000;
+}
+
+.header-titulo{
+    margin-left: 1rem;
+}
+
+.header-titulo > h1{
+    margin: 1rem;
+    font-size: 2.1rem;
 }
 
 em {
     font-style: italic;
-}
-
-h1,
-h2,
-.subtitulo-principal {
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-}
-
-h1 {
-    text-shadow: 2px 2px #000;
-    font-size: 3rem;
-    text-transform: uppercase;
 }
 
 .icones-redes-sociais{
@@ -116,7 +107,7 @@ main a:hover,
 main a:focus,
 footer a:hover,
 footer a:focus{
-    color: red;
+    color: rgb(197, 231, 252);
 }
 
 main p {
@@ -136,59 +127,16 @@ ul li{
     margin: 5px;
 }
 
-.navegacao-site {
-    text-align: center;
+nav{
     background-color: lightskyblue;
-    color: #F2FFFC;
 }
 
-.navegacao-site {
-    padding: 1rem;
-    display: flex;
-    flex: 5 5 auto;
-    justify-content: flex-end;
-}
-
-.navegacao-site a {
-    color: inherit;
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-    text-transform: lowercase;
-    text-shadow: 0 0 2px pink;
-}
-
-.navegacao-site h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.rodape-pagina {
-    /*background-color: #000;*/
-    color: #F2FFFC;
-    padding: 1rem;
-    clear: both;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-    background-image: radial-gradient(ellipse at left bottom,
-    rgba(60, 29, 61, 0.8),
-    rgba(60, 29, 61, 0.8) 65%,
-    black 65%,
-    black 70%,
-    transparent 70%,
-    transparent);
-    background-size: 25% 100%;
-    background-repeat: no-repeat;   
+nav ul a{
+    font-size: 1.2rem;
 }
 
 strong {
     font-weight: bold;
-}
-
-.subtitulo-texto {
-    font-size: 1.5rem;
-    clear: both;
 }
 
 .titulo-principal {
@@ -198,7 +146,6 @@ strong {
     padding: 2rem;
     border-bottom: .5rem solid #000;
 }
-
 
 /*Ícones*/
 
@@ -215,12 +162,3 @@ strong {
 }
 
 /*end Ícones*/
-
-/*********************
-  Media Query Classes
-**********************/
-@media only screen and (max-width: 425px) {
-    .minha-foto{
-      display: none !important;
-    }
-  }

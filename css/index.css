@@ -1,3 +1,9 @@
+/* Animation Keyframe */
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+/*  */
 .blog {
     background-color: #999;
     position: relative;
@@ -34,7 +40,6 @@
     border: 1rem solid black;
     margin: .25rem;
 }
-
 .blog .inicio-post {
     top: 4rem;
     height: 8rem;
@@ -43,23 +48,19 @@
     color: white;
     padding: 1.5rem;
 }
-
 .foto-home {
     height: 200px;
     border-radius: 50%;
 }
-
 .saudacao a{
     text-decoration: none;
 }
-
 .saudacao p{
     display: flex;
     flex-flow: column;
     justify-content: space-between;
     align-items: center;
 }
-
 .saudacao p {
     font-size: 1.5rem;
     color: #99A;
@@ -69,10 +70,10 @@
     margin: auto;
 }
 .saudacao-inicio {
-    display: flex;
     font-size: 2.1rem;
     color: #889;
     flex: 1 1 auto;
+    animation: fade-in 1.5s linear;
 }
 .saudacao-meio{
     display: block;
@@ -80,15 +81,15 @@
     flex: 1 1 auto;
     padding: 0.3rem;
     padding-bottom: 0.4rem;
+    animation: fade-in 4.5s ease;
 }
-
 .saudacao a:hover{
     color: #889;
 }
-
 .saudacao-ultima-linha {
     flex: 1 1 auto;
     display: block;
+    animation: fade-in 7s ease-in-out;
 }
 .saudacao strong {
     padding-left: 0.5rem;
@@ -149,11 +150,6 @@
     display: block;
     box-shadow: 0 0 4px #000;
 }
-
-main {
-    width: 100%;
-    padding-bottom: 0;
-}
 html,body {
     overflow-x: hidden;
     height: 100%;
@@ -164,7 +160,6 @@ body {
     -webkit-perspective-origin: 50% 160px;
             perspective-origin: 50% 160px;
 }
-
 .titulo-principal {
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
