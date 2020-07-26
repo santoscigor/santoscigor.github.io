@@ -76,7 +76,6 @@
     margin: auto;
 }
 .saudacao-inicio {
-    display: flex;
     font-size: 2.1rem;
     color: #889;
     flex: 1 1 auto;
