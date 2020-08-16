@@ -36,6 +36,9 @@
     text-align: center;
     background-color: #E6E7E8;
 }
+main a{
+    color:black;
+}
 .posts-cards{
     display: flex;
 }
