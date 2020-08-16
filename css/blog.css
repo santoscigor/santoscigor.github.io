@@ -39,8 +39,13 @@
 main a{
     color:black;
 }
+.post-card{
+    max-width: 400px;
+}
 .posts-cards{
     display: flex;
+    flex-grow: 0;
+    justify-content: space-evenly;
 }
 .post-blog + .post-blog{
     /* trocamos padding-bottom e margin-bottom por
