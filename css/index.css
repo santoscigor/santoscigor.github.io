@@ -62,33 +62,20 @@
     align-items: center;
 }
 .saudacao p {
-    font-size: 1.5rem;
+    font-family: "Roboto", "Lato", sans-serif;
+    font-size: 32px;
     color: #99A;
-    line-height: 2rem;
     padding: 1rem;
     max-width: 1330px;
     margin: auto;
 }
 .saudacao-inicio {
-    font-size: 2.1rem;
-    color: #889;
-    flex: 1 1 auto;
     animation: fade-in 1.5s linear;
 }
 .saudacao-meio{
-    display: block;
-    font-size: 1.5rem;
-    flex: 1 1 auto;
-    padding: 0.3rem;
-    padding-bottom: 0.4rem;
     animation: fade-in 4.5s ease;
 }
-.saudacao a:hover{
-    color: #889;
-}
 .saudacao-ultima-linha {
-    flex: 1 1 auto;
-    display: block;
     animation: fade-in 7s ease-in-out;
 }
 .saudacao strong {
@@ -98,9 +85,8 @@
 }
 .saudacao em {
     color: lightskyblue;
-    font-size: 2rem;
-    -webkit-transform: rotate(-5deg) skew(-10deg);
-            transform: rotate(-5deg) skew(-10deg);
+    /* -webkit-transform: rotate(-5deg) skew(-10deg);
+            transform: rotate(-5deg) skew(-10deg); */
     display: inline-block;
 }
 .secao-inicio h2 {
