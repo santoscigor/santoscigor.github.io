@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>{{title}} | Igor Costa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+        <meta name="author" content="Igor Costa">
+        <meta name="description" content="Seja bem vindo ao meu site! Aqui você descobrirá sobre mim.">
+
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700">
+        <link rel="shortcut icon" href="imagens/favicon.png">
+
+        <link rel="stylesheet" href="css/site.css">
+    </head>
+    <body>
+        <header class="nav-down">
+            <nav>
+                <h2>Igor Costa</h2>
+            </nav>
+        </header>
+        <main>
+            <section class="secao-inicio">
+                <div class="container"> 
+                    <h1 class="pagetitle">{{ pagetitle }}</h1>
+                </div>
+            </section>
+            {{content | safe}}
+        </main>
+        <footer>
+            <div class="container">
+                <h2>Ei, vamos conversar!</h2>
+                <p class="footer-text">Se sinta livre para entrar em contato comigo se você está procurando por um desenvolvedor, tem qualquer dúvida sobre a área de desenvolvimento ou quer desenvolver um projeto qualquer. Também pode me chamar só pra bater um papo :D <a href="mailto:santoscigor@gmail.com">santoscigor@gmail.com </a>
+                <ul class="icones-redes-sociais">
+                    <li>
+                        <a href="https://github.com/santoscigor" class="github" data-tooltip="Veja os meus projetos">
+                            Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/santoscigor" class="twitter" data-tooltip="Siga-me no Twitter">
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/santoscigor/" class="linkedin" data-tooltip="Veja meu currículo">
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+    <script src="js/site.js"></script>
+</html>
