@@ -1,57 +1,46 @@
 body {
+    padding-top: 56px;
     font-family: "Lato", "Open Sans", sans-serif;
     background-color: #fff;
-    font-size: 120%;
-    line-height: 1.5;
+    margin: 0;
 }
 
 .container {
     max-width: 1330px;
     margin: auto;
-    padding: 2rem;
+    padding: 97px;
 }
 
 footer {
-    background-color: #000;
-    color: #FFF;
-    padding: 2rem;
-}
-footer h2 {
-    font-size: 3rem;
-}
-footer a {
-    color: lightskyblue;
+    height: 568px;
+    background-color: #DEDEDE;
 }
 
-footer > .container{
-    display: flex;
-    flex-flow: wrap;
+.footer-text {
+    width: 399px
 }
 
-footer > .container > p{
-    margin:auto;
-    padding-bottom: 1rem;
+header {
+    box-shadow: 0px 1px 1px black;
+    position: fixed;
+    padding: 10px;
+    padding-bottom: 0;
+    background-color: #FFF;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border:1px solid black;
+    height: 44px;
+    transition: top 0.2s ease-in-out;
+    z-index: 1;
 }
 
-.gap {
-	gap: 20px;
-}
-
-header{
-    text-shadow: 0.05rem 0.05rem #000;
-}
-
-.header-titulo{
-    margin-left: 1rem;
-}
-
-.header-titulo > h1{
-    margin: 1rem;
-    font-size: 2.1rem;
-}
-
-em {
-    font-style: italic;
+header > nav > h2 {
+    background-color: #FFF;;
+    font-family: "Lato", sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding-top: 7px;
 }
 
 .icones-redes-sociais{
@@ -95,26 +84,6 @@ em {
     display: inline-block;
 }
 
-main {
-    padding-bottom: 4rem;
-}
-
-main a {
-    color: lightskyblue;
-}
-
-main a:hover,
-main a:focus,
-footer a:hover,
-footer a:focus{
-    color: rgb(197, 231, 252);
-}
-
-main p {
-    text-align: left;
-    margin: 1rem 0;
-}
-
 .minha-foto {
     flex: 1 1 auto;
     height: 100px;
@@ -123,31 +92,40 @@ main p {
     margin: 1rem;
 }
 
-ul li{
-    margin: 5px;
-}
-
-nav{
-    background-color: lightskyblue;
+nav {
+    margin: auto;
 }
 
 nav ul a{
     font-size: 1.2rem;
 }
 
+.nav-up {
+    top: -57px;
+}
+
+.pagetitle {
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    width: 419px;
+    height: 76px;
+    left: 103px;
+    top: 85px;
+}
+
+.secao-inicio {
+    height: 189px;
+}
+
 strong {
     font-weight: bold;
 }
 
-.titulo-principal {
-    text-align: center;
-    background-color: lightskyblue;
-    color: #FFF;
-    padding: 2rem;
-    border-bottom: .5rem solid #000;
+ul li{
+    margin: 5px;
 }
 
-/*Ícones*/
+/*icons*/
 
 .github {
     background-image: url(../imagens/github.png);
@@ -161,4 +139,4 @@ strong {
     background-image: url(../imagens/linkedin.png);
 }
 
-/*end Ícones*/
+/*end icons*/
