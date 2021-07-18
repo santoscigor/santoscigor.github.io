@@ -12,16 +12,15 @@
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700">
         <link rel="shortcut icon" href="imagens/favicon.png">
 
-        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="/css/site.css">
     </head>
     <body>
         <header class="nav-down">
             <nav>
                 <h2>Igor Costa</h2>
-                <ul class="">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="bio.html">Sobre</a></li>
+                <ul class="navigation">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/me">Sobre</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,6 +28,10 @@
             <section class="secao-inicio">
                 <div class="container"> 
                     <h1 class="pagetitle">{{ pagetitle }}</h1>
+                    <label class="switch">
+                        <input id="darkmodecheckbox" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
                 </div>
             </section>
             {{content | safe}}
@@ -57,5 +60,5 @@
             </div>
         </footer>
     </body>
-    <script src="js/site.js"></script>
+    <script src="/js/site.js"></script>
 </html>
