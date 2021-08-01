@@ -3,180 +3,31 @@
     from {opacity: 0;}
     to {opacity: 1;}
   }
-/*  */
-.blog {
-    background-color: #999;
-    position: relative;
-    color: #E5DCC5;
-    border-bottom: .5rem solid lightskyblue;
-    background-image: linear-gradient(
-        45deg, 
-        transparent,
-        transparent 14px, 
-        rgba(255, 255, 255, 0.1) 14px, 
-        rgba(255, 255, 255, 0.1) 15px, 
-        transparent 15px, 
-        transparent
-    );
-    background-size: 20px 20px;
-    background-attachment: fixed;
-}
-.blog small {
-    position: relative;
-    top: -2rem;
-}
-.blog ol{
+
+.about {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    flex-direction: row;
-}
-.blog li a {
-    color: #FCF;
-    padding: .25rem;
-    display: block;
-}
-.blog li{
-    background-color: #363946;
-    border: 1rem solid black;
-    margin: .25rem;
-}
-.blog .inicio-post {
-    top: 4rem;
-    height: 8rem;
-    left: 30%;
-    right: 4rem;
-    color: white;
-    padding: 1.5rem;
-}
-.foto-home {
-    height: 200px;
-    border-radius: 50%;
-}
-.saudacao a{
-    text-decoration: none;
-}
-.saudacao p{
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
-    align-items: center;
-}
-.saudacao p {
-    font-family: "Roboto", "Lato", sans-serif;
-    font-size: 32px;
-    color: #99A;
-    padding: 1rem;
-    max-width: 1330px;
     margin: auto;
 }
-.saudacao-inicio {
-    animation: fade-in 1.5s linear;
+
+.about > p {
+    flex: 1 0 30rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    padding: 0.1rem;
 }
-.saudacao-meio{
-    animation: fade-in 4.5s ease;
+
+.secao-tecnologias {
+    padding: 5%;
 }
-.saudacao-ultima-linha {
-    animation: fade-in 7s ease-in-out;
-}
-.saudacao strong {
-    padding-left: 0.5rem;
-    flex: 1 1 auto;
-    color: #000;
-}
-.saudacao em {
-    color: lightskyblue;
-    /* -webkit-transform: rotate(-5deg) skew(-10deg);
-            transform: rotate(-5deg) skew(-10deg); */
-    display: inline-block;
-}
-.secao-inicio h2 {
-    text-shadow: 2px 2px #000;
-}
-.botao-index {
-    font-size: 1.25rem;
-    background-color: lightskyblue;
-    color: #FFF;
-    padding: .5rem;
-    border: .2rem solid black;
-    width: 90%;
-    max-width: 1330px;
-    margin: 2rem auto;
-    display: block;
+
+.lista-tecnologias > ul {
+    padding: 0;
     text-align: center;
 }
-.secao-inicio {
-    padding: 2rem;
-}
-.secao-inicio h2 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    margin-bottom: .5rem;
-}
-.habilidades {
-    background-color: #363946;
-    border-top: .5rem solid #000;
-    border-bottom: .5rem solid #000;
-    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
-    background-size: 20px 20px;
-    background-attachment: fixed;
-}     
-.habilidades h2 {
-    color: #FFF;
-}
-.habilidades ul {
-    overflow: hidden;
-    border: .5rem solid black;
-}
-.habilidades li {
-    float: left;
-    width: 33.333%;
-}
-.habilidades img {
-    width: 100%;
-    display: block;
-    box-shadow: 0 0 4px #000;
-}
-html,body {
-    overflow-x: hidden;
-    height: 100%;
-}
-body {
-    -webkit-perspective: 6px;
-            perspective: 6px;
-    -webkit-perspective-origin: 50% 160px;
-            perspective-origin: 50% 160px;
-}
-.titulo-principal {
-    -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-    position: relative;
-}
-.banner-twitter {
-    position: absolute;
-    top: 0;
-    right: 0;
 
-    line-height: 1;
-    -webkit-transform: translate(8.5765rem, -2.4745rem) rotate(45deg);
-            transform: translate(8.5765rem, -2.4745rem) rotate(45deg);
-    -webkit-transform-origin: 0 0;
-            transform-origin: 0 0;
-
-    width: 18rem;
-    padding: 1rem 0;
-    box-sizing: border-box;
-
-    text-align: center;
-    text-decoration: none;
-    background-color: #363946;
-    color: white;
-    border: .25rem solid black;
-
-    font-size: 1.2rem;
-    font-family: "Open Sans Condensed", sans-serif;
+.flex-center > ul {
+    flex: 1 0 15rem;
 }
-
-
-
-
 
