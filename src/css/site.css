@@ -6,6 +6,7 @@ body {
     --text-color: black;
     --bkg-color: #fff;
 }
+
 body.dark-theme {
     --text-color: #DEDEDE;
     --bkg-color: #203863;
@@ -19,7 +20,7 @@ body {
 }
 
 .container {
-    max-width: 1330px;
+    max-width: 962px;
     margin: auto;
     padding: 5%;
 }
@@ -28,19 +29,52 @@ footer {
     background-color: #DEDEDE;
 }
 
+.flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0.5rem; 
+}
+
 footer h2,
 footer p {
     color: black;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
+
+footer h2 {
+    font-size: 1.8rem;
 }
 
 .footer-text {
     max-width: 40.0rem
 }
 
+button {
+    background-color: var(--bkg-color);
+    color: var(--text-color);
+    border: var(--text-color) solid 0.1rem;
+    border-radius: 0.5rem;
+}
+
 h1,
 h2,
+h3,
+ul,
 p {
     color: var(--text-color);
+}
+
+.main-text > p {
+    font-size: 1.6rem;
+}
+
+
+.main-text > h2 {
+    font-size: 1.8rem;
 }
 
 header {
@@ -53,6 +87,11 @@ header {
     left: 0;
     transition: top 0.2s ease-in-out;
     z-index: 1;
+}
+
+.header-container {
+    max-width: 1330px;
+    margin: auto;
 }
 
 header > nav {
@@ -77,6 +116,14 @@ header > nav > ul {
     padding: 0;
 }
 
+.img-large {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .icones-redes-sociais{
     margin: auto;
     padding-bottom: 1rem;
@@ -88,30 +135,6 @@ header > nav > ul {
     display: block;
     position: relative;
     text-indent: -99999px;
-}
-
-.icones-redes-sociais a:hover::before,
-.icones-redes-sociais a:focus::before {
-    content: '';
-    background-color: black;
-    width: 1rem;
-    height: 1rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transform: translateY(.8rem) rotate(45deg);
-}
-
-.icones-redes-sociais a:hover::after,
-.icones-redes-sociais a:focus::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    top: 100%;
-    right: 0;
-    text-indent: 0;
-    width: 300%;
-    background: black;
-    font-size: .75rem;
 }
 
 .icones-redes-sociais li {
@@ -141,6 +164,12 @@ nav ul a{
 .pagetitle {
     font-family: "Roboto", sans-serif;
     font-size: x-large;
+    max-width: 30rem;
+}
+
+.pagetitle > h2 {
+    font-family: "Lato", sans-serif;
+    font-size: small;
     max-width: 30rem;
 }
 
@@ -221,8 +250,13 @@ ul {
     list-style-type: none;
 }
 
-ul li{
-    margin: 5px;
+ul li {
+    margin: 0.5rem;
+    font-size: 1.6rem;
+}
+
+ul h3 {
+    font-size: 1.8rem;
 }
 
 ul li a{
@@ -233,15 +267,15 @@ ul li a{
 /*icons*/
 
 .github {
-    background-image: url(../imagens/github.png);
+    background-image: url(../img/github.png);
 }
 
 .twitter {
-    background-image: url(../imagens/twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-    background-image: url(../imagens/linkedin.png);
+    background-image: url(../img/linkedin.png);
 }
 
 /*end icons*/
