@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="pt" dir="ltr">
     <head>
-        <title>{{title}} | Igor Costa</title>
+        <title>Homepage | Igor Costa</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
@@ -29,14 +29,75 @@
         <main>
             <section class="secao-inicio">
                 <div class="container"> 
-                    <h1 class="pagetitle">{{ pagetitle }}</h1>
+                    <h1 class="pagetitle">Olá, eu me chamo Igor. Desenvolvedor em SSA</h1>
                     <label class="switch">
                         <input id="darkmodecheckbox" type="checkbox">
                         <span class="slider round"></span>
                     </label>
                 </div>
             </section>
-            {{content | safe}}
+            <link rel="stylesheet" href="/css/index.css" />
+<section>
+    <div class="container">
+        <img class="img-large" src="/img/eu.jpg" alt="Minha Foto">
+        <div class="main-text about">
+            <p> 
+                Olá, seja bem vindo! Me chamo Igor, nasci em 1995, sou soteropolitano, amo pães, sou pai de planta, amo esportes coletivos, principalmente futebol, basquete e vôlei. 
+                Eu adoro ler livros e artigos, principalmente de sociedades fora do eixo "ocidental".
+            </p>
+            <p>
+                Trabalho com desenvolvimento web (fullstack), mas hoje atuo na maior parte como backend, onde já desenvolvi em projetos para os setores de educação, financeiros e empresarial,
+                além de ter experiência com o básico de infraestrutura e devops.
+            </p>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="secao-tecnologias container main-text">
+        <h2>Tecnologias com as quais tenho experiência</h2>
+        <div class="lista-tecnologias flex-center">
+            <ul>
+                <h3>Linguagens</h3>
+                
+                    <li>JavaScript</li>
+                
+                    <li>TypeScript</li>
+                
+                    <li>C#</li>
+                
+                    <li>Elixir</li>
+                
+            </ul>
+            <ul>
+                <h3>Frontend</h3>
+                
+                    <li>React</li>
+                
+                    <li>Vanilla JS</li>
+                
+            </ul>
+            <ul>
+                <h3>Backend</h3>
+                
+                    <li>Node.js</li>
+                
+                    <li>Phoenix</li>
+                
+                    <li>ASP.Net</li>
+                
+            </ul>
+            <ul>
+                <h3>Banco de Dados</h3>
+                
+                    <li>PostgreSQL</li>
+                
+                    <li>Microsoft SQL Server</li>
+                
+            </ul>
+        </div>
+    </div>
+</section>
+
         </main>
         <footer>
             <div class="container">
