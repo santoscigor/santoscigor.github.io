@@ -1,0 +1,12 @@
+.bio-short {
+    display: block;
+}
+
+.bio-long {
+    display: none;
+}
+
+#short-button {
+    color: tomato;
+    border: tomato solid 0.1rem;
+}

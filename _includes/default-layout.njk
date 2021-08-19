@@ -1,0 +1,66 @@
+<!-- Doctype HTML5 -->
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+    <head>
+        <title>{{title}} | Igor Costa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+        <meta name="author" content="Igor Costa">
+        <meta name="description" content="Seja bem vindo ao meu site! Aqui você descobrirá sobre mim.">
+
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:700">
+        <link rel="shortcut icon" href="img/favicon.png">
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="/css/site.css">
+    </head>
+    <body>
+        <header class="nav-down">
+            <nav class="header-container">
+                <h2>Igor Costa</h2>
+                <ul class="navigation">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/me">Sobre</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="secao-inicio">
+                <div class="container"> 
+                    <h1 class="pagetitle">{{ pagetitle }}</h1>
+                    <label class="switch">
+                        <input id="darkmodecheckbox" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </section>
+            {{content | safe}}
+        </main>
+        <footer>
+            <div class="container">
+                <h2>Ei, vamos conversar!</h2>
+                <p class="footer-text">Se sinta livre para entrar em contato comigo se você está procurando por um desenvolvedor, tem qualquer dúvida sobre a área de desenvolvimento ou quer desenvolver um projeto qualquer. Também pode me chamar só pra bater um papo :D <a href="mailto:santoscigor@gmail.com">santoscigor@gmail.com </a>
+                <ul class="icones-redes-sociais" stylesheet="">
+                    <li>
+                        <a href="https://github.com/santoscigor">
+                            Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/santoscigor">
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/santoscigor/">
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+    <script src="/js/site.js"></script>
+</html>
