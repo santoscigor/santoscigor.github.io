@@ -36,6 +36,10 @@ footer {
     margin: 0.5rem; 
 }
 
+h3 {
+    font-size: 1.8rem;
+}
+
 footer h2,
 footer p {
     color: black;
@@ -75,6 +79,10 @@ p {
 
 .main-text > h2 {
     font-size: 1.8rem;
+}
+
+.lista-tecnologias > h3 {
+    text-align: center;
 }
 
 header {
@@ -253,10 +261,6 @@ ul {
 ul li {
     margin: 0.5rem;
     font-size: 1.6rem;
-}
-
-ul h3 {
-    font-size: 1.8rem;
 }
 
 ul li a{
