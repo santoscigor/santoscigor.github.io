@@ -26,31 +26,39 @@ databases: ["PostgreSQL", "Microsoft SQL Server"]
 <section>
     <div class="secao-tecnologias container main-text">
         <h2>Tecnologias com as quais tenho experiência</h2>
-        <div class="lista-tecnologias flex-center">
-            <ul>
+        <div class="flex-center">
+            <div class="lista-tecnologias">
                 <h3>Linguagens</h3>
-                {% for language in languages %}
-                    <li>{{language}}</li>
-                {% endfor %}
-            </ul>
-            <ul>
+                <ul>
+                    {% for language in languages %}
+                        <li>{{language}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="lista-tecnologias">
                 <h3>Frontend</h3>
-                {% for item in frontend %}
-                    <li>{{item}}</li>
-                {% endfor %}
-            </ul>
-            <ul>
+                <ul>
+                    {% for item in frontend %}
+                        <li>{{item}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="lista-tecnologias">
                 <h3>Backend</h3>
-                {% for item in backend %}
-                    <li>{{item}}</li>
-                {% endfor %}
-            </ul>
-            <ul>
+                <ul>
+                    {% for item in backend %}
+                        <li>{{item}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="lista-tecnologias">
                 <h3>Banco de Dados</h3>
-                {% for item in databases %}
-                    <li>{{item}}</li>
-                {% endfor %}
-            </ul>
+                <ul>
+                    {% for item in databases %}
+                        <li>{{item}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
         </div>
     </div>
 </section>
