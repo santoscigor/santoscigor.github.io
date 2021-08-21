@@ -29,6 +29,12 @@ footer {
     background-color: #DEDEDE;
 }
 
+.hidden {
+    position: absolute;
+    top: -9999999px;
+    opacity: 0;
+}
+
 .flex-center {
     display: flex;
     flex-wrap: wrap;
@@ -103,13 +109,13 @@ header {
     margin: auto;
 }
 
-header > nav {
+header > div {
     display: flex;
     flex-wrap: wrap;
     margin: 0.5rem;
 }
 
-header > nav > h2 {
+header > div > h2 {
     flex: 2 1 36.0rem;
     background-color: var(--bkg-color);
     font-family: "Lato", sans-serif;
@@ -118,8 +124,11 @@ header > nav > h2 {
     margin-left: 5px;
 }
 
-header > nav > ul {
+header > div > nav {
     flex: 1 1 auto;
+}
+
+header > div > nav > ul {
     display: flex;
     justify-content: space-around;
     padding: 0;
