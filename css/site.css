@@ -68,6 +68,7 @@ h1,
 h2,
 h3,
 ul,
+a,
 p {
     color: var(--text-color);
 }
