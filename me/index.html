@@ -17,13 +17,15 @@
     </head>
     <body>
         <header class="nav-down">
-            <nav class="header-container">
+            <div class="header-container">
                 <h2>Igor Costa</h2>
-                <ul class="navigation">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/me">Sobre</a></li>
-                </ul>
-            </nav>
+                <nav aria-label="primary" class="navigation">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/me">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
             <section class="secao-inicio">
@@ -36,39 +38,39 @@
                 </div>
             </section>
             <link rel="stylesheet" href="/css/me.css" />
-<section>
-    <div class="container main-text">
+<article class="container main-text about-me">
+    <h2>Sobre mim</h2>
+    <figure>
         <img class="img-large" src="/img/eu.jpg" alt="Minha Foto"  width="962" height="292">
-        <div class="flex-center">
-            <button id="short-button">Breve</button>
-            <button id="long-button">Longo</button>
-        </div>
-        <h2>Sobre mim</h2>
-        <div id="bio-short" class="bio-short main-text">
-            <p>
-                Me chamo Igor, nasci em 1995, sou soteropolitano, amo pães, pai de planta, amo esportes coletivos, principalmente futebol, basquete e vôlei. 
-                Eu adoro ler livros e artigos, principalmente de sociedades fora do eixo "ocidental".   
-            </p>
-        </div>
-        <div id="bio-long" class="bio-long main-text">
-            <p>
-                Me chamo Igor, nasci em 1995, sou soteropolitano, amo pães, pai de planta, amo esportes coletivos, principalmente futebol, basquete e vôlei. 
-                Eu adoro ler livros e artigos, principalmente de sociedades fora do eixo "ocidental". Hoje digo com a alegria que sou privilegiado de
-                ter conseguido realizar um dos meus maiores desejos de criança que é entender como eletrônicos como o videogame e o computador funciona, desde a primeira vez
-                em que vi um funcionar, onde despertou a curiosidade em entender como você pluga na tomada, liga o videogame, mexe no joystick, e a tela acaba mexendo e muda. 
-                Sempre fui ratinho de videogame e descobri o mistério de entender como é que funciona, e mais do que isso, digo hoje que eu sei o básico para desenvolver qualquer sistema! :D       
-            </p>
-            <p>
-                Já trabalhei com a plataforma .NET utilizando C#, SQL Server. Também 
-                já implementei algumas APIs RESTful com Java, muito JavaScript tanto no back quanto no front,
-                e até mesmo com coisas incomuns como <em>XPages</em> e <em>PowerBuilder</em>. 
-                Também já atuei até mesmo com o design de circuitos utilizando Verilog!
+    </figure>
+    <section id="buttons-panel" class="flex-center">
+        <button id="short-button">Breve</button>
+        <button id="long-button">Longo</button>
+    </section>
+    <section id="bio-short" class="bio-short main-text">
+        <p>
+            Me chamo Igor, nasci em 1995, sou soteropolitano, amo pães, pai de planta, amo esportes coletivos, principalmente futebol, basquete e vôlei. 
+            Eu adoro ler livros e artigos, principalmente de sociedades fora do eixo "ocidental".   
+        </p>
+    </section>
+    <section id="bio-long" class="bio-long main-text">
+        <p>
+            Me chamo Igor, nasci em 1995, sou soteropolitano, amo pães, pai de planta, amo esportes coletivos, principalmente futebol, basquete e vôlei. 
+            Eu adoro ler livros e artigos, principalmente de sociedades fora do eixo "ocidental". Hoje digo com a alegria que sou privilegiado de
+            ter conseguido realizar um dos meus maiores desejos de criança que é entender como eletrônicos como o videogame e o computador funciona, desde a primeira vez
+            em que vi um funcionar, onde despertou a curiosidade em entender como você pluga na tomada, liga o videogame, mexe no joystick, e a tela acaba mexendo e muda. 
+            Sempre fui ratinho de videogame e descobri o mistério de entender como é que funciona, e mais do que isso, digo hoje que eu sei o básico para desenvolver qualquer sistema! :D       
+        </p>
+        <p>
+            Já trabalhei com a plataforma .NET utilizando C#, SQL Server. Também 
+            já implementei algumas APIs RESTful com Java, muito JavaScript tanto no back quanto no front,
+            e até mesmo com coisas incomuns como <em>XPages</em> e <em>PowerBuilder</em>. 
+            Também já atuei até mesmo com o design de circuitos utilizando Verilog!
 
-                Adquiri o interesse por programação funcional, e gosto bastante de trabalhar com Elixir também.
-            </p>
-        </div>
-    </div>    
-</section>
+            Adquiri o interesse por programação funcional, e gosto bastante de trabalhar com Elixir também.
+        </p>
+    </section>
+</article>
 <script src="/js/me.js"></script>
         </main>
         <footer>

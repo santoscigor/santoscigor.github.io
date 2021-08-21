@@ -17,18 +17,20 @@
     </head>
     <body>
         <header class="nav-down">
-            <nav class="header-container">
+            <div class="header-container">
                 <h2>Igor Costa</h2>
-                <ul class="navigation">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/me">Sobre</a></li>
-                </ul>
-            </nav>
+                <nav aria-label="primary" class="navigation">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/me">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
             <section class="secao-inicio">
                 <div class="container"> 
-                    <h1 class="pagetitle">Ops! Não foi encontrado :(</h1>
+                    <h1 class="pagetitle">404</h1>
                     <label class="switch">dark
                         <input id="darkmodecheckbox" type="checkbox">
                         <span class="slider round"></span>
@@ -36,11 +38,10 @@
                 </div>
             </section>
             <link rel="stylesheet" href="/css/me.css" />
-<section>
-    <div class="container main-text">
-        <p>O caminho que você tentou acessar não existe :( que tal voltar a <a href="/">home page?</a></p>
-    </div>    
-</section>
+<article class="container main-text">
+    <h2>Ops! Não foi encontrado</h2>
+    <p>O caminho que você tentou acessar não existe :( que tal voltar para a <a href="/">home page?</a></p>
+</article>
         </main>
         <footer>
             <div class="container">

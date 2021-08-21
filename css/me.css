@@ -1,3 +1,16 @@
+.about-me {
+    display: flex;
+    flex-flow: column;
+}
+
+.about-me > figure {
+    order: -2;
+}
+
+#buttons-panel {
+    order: -1;
+}
+
 .bio-short {
     display: block;
 }

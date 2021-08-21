@@ -17,18 +17,20 @@
     </head>
     <body>
         <header class="nav-down">
-            <nav class="header-container">
+            <div class="header-container">
                 <h2>Igor Costa</h2>
-                <ul class="navigation">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/me">Sobre</a></li>
-                </ul>
-            </nav>
+                <nav aria-label="primary" class="navigation">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/me">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
             <section class="secao-inicio">
                 <div class="container"> 
-                    <h1 class="pagetitle">Ops! Algo deu errado :(</h1>
+                    <h1 class="pagetitle">5xx</h1>
                     <label class="switch">dark
                         <input id="darkmodecheckbox" type="checkbox">
                         <span class="slider round"></span>
@@ -36,10 +38,9 @@
                 </div>
             </section>
             <link rel="stylesheet" href="/css/me.css" />
-<section>
-    <div class="container main-text">
-        <p>Algo deu muito errado aqui :( que tal voltar a <a href="/">home page?</a></p>
-    </div>    
+<section class="container main-text">
+    <h2>Ops! Algo deu errado</h2>
+    <p>Algo deu muito errado aqui :( que tal voltar para a <a href="/">home page?</a></p>
 </section>
         </main>
         <footer>

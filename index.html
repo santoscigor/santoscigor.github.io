@@ -17,13 +17,15 @@
     </head>
     <body>
         <header class="nav-down">
-            <nav class="header-container">
+            <div class="header-container">
                 <h2>Igor Costa</h2>
-                <ul class="navigation">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/me">Sobre</a></li>
-                </ul>
-            </nav>
+                <nav aria-label="primary" class="navigation">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/me">Sobre</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
             <section class="secao-inicio">
@@ -36,74 +38,73 @@
                 </div>
             </section>
             <link rel="stylesheet" href="/css/index.css" />
-<section>
-    <div class="container">
+<article class="container">
+    <h2 class="hidden">Bem vindo!</h2>
+    <figure>
         <img class="img-large" src="/img/eu.jpg" alt="Minha Foto"  width="962" height="292">
-        <div class="main-text about">
-            <p> 
-                Olá, seja bem vindo! Me chamo Igor, nasci em 1995, sou soteropolitano, amo pães, sou pai de planta, amo esportes coletivos, principalmente futebol, basquete e vôlei. 
-                Eu adoro ler livros e artigos, principalmente de sociedades fora do eixo "ocidental".
-            </p>
-            <p>
-                Trabalho com desenvolvimento web (fullstack), mas hoje atuo na maior parte como backend, onde já desenvolvi em projetos para os setores de educação, financeiros e empresarial,
-                além de ter experiência com o básico de infraestrutura e devops.
-            </p>
-        </div>
+    </figure>
+    <section class="main-text about">
+        <p> 
+            Olá, seja bem vindo! Me chamo Igor, nasci em 1995, sou soteropolitano, amo pães, sou pai de planta, amo esportes coletivos, principalmente futebol, basquete e vôlei. 
+            Eu adoro ler livros e artigos, principalmente de sociedades fora do eixo "ocidental".
+        </p>
+        <p>
+            Trabalho com desenvolvimento web (fullstack), mas hoje atuo na maior parte como backend, onde já desenvolvi em projetos para os setores de educação, financeiros e empresarial,
+            além de ter experiência com o básico de infraestrutura e devops.
+        </p>
+    </section>
+</article>
+<article class="secao-tecnologias container main-text">
+    <h2>Tecnologias com as quais tenho experiência</h2>
+    <div class="flex-center">
+        <section class="lista-tecnologias">
+            <h3>Linguagens</h3>
+            <ul>
+                
+                    <li>JavaScript</li>
+                
+                    <li>TypeScript</li>
+                
+                    <li>C#</li>
+                
+                    <li>Elixir</li>
+                
+            </ul>
+        </section>
+        <section class="lista-tecnologias">
+            <h3>Frontend</h3>
+            <ul>
+                
+                    <li>React</li>
+                
+                    <li>Vanilla JS</li>
+                
+            </ul>
+        </section>
+        <section class="lista-tecnologias">
+            <h3>Backend</h3>
+            <ul>
+                
+                    <li>Node.js</li>
+                
+                    <li>Phoenix</li>
+                
+                    <li>ASP.Net</li>
+                
+            </ul>
+        </section>
+        <section class="lista-tecnologias">
+            <h3>Banco de Dados</h3>
+            <ul>
+                
+                    <li>PostgreSQL</li>
+                
+                    <li>Microsoft SQL Server</li>
+                
+            </ul>
+        </section>
     </div>
-</section>
-<section>
-    <div class="secao-tecnologias container main-text">
-        <h2>Tecnologias com as quais tenho experiência</h2>
-        <div class="flex-center">
-            <div class="lista-tecnologias">
-                <h3>Linguagens</h3>
-                <ul>
-                    
-                        <li>JavaScript</li>
-                    
-                        <li>TypeScript</li>
-                    
-                        <li>C#</li>
-                    
-                        <li>Elixir</li>
-                    
-                </ul>
-            </div>
-            <div class="lista-tecnologias">
-                <h3>Frontend</h3>
-                <ul>
-                    
-                        <li>React</li>
-                    
-                        <li>Vanilla JS</li>
-                    
-                </ul>
-            </div>
-            <div class="lista-tecnologias">
-                <h3>Backend</h3>
-                <ul>
-                    
-                        <li>Node.js</li>
-                    
-                        <li>Phoenix</li>
-                    
-                        <li>ASP.Net</li>
-                    
-                </ul>
-            </div>
-            <div class="lista-tecnologias">
-                <h3>Banco de Dados</h3>
-                <ul>
-                    
-                        <li>PostgreSQL</li>
-                    
-                        <li>Microsoft SQL Server</li>
-                    
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
+</article>
 
         </main>
         <footer>
