@@ -119,7 +119,7 @@ header > div {
     margin: 0.5rem;
 }
 
-header > div > h2 {
+header > div > h1 {
     flex: 2 1 36.0rem;
     background-color: var(--bkg-color);
     font-family: "Lato", sans-serif;
