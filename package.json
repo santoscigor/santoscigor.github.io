@@ -4,7 +4,10 @@
   "description": "My personal portfolio website",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "npx @11ty/eleventy --serve",
+    "eslint:check": "npx eslint js",
+    "eslint:fix": "npx eslint --fix js",
+    "test": "npx @11ty/eleventy && npx hint ./_site"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,12 @@
   },
   "homepage": "https://github.com/santoscigor/santoscigor.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "hint": "^6.1.4"
   }
 }
