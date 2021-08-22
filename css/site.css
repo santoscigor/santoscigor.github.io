@@ -55,6 +55,10 @@ footer p {
     font-size: 1.2rem;
 }
 
+footer p a {
+    color: blue;
+}
+
 footer h2 {
     font-size: 1.8rem;
 }
