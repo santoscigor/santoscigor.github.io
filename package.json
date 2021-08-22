@@ -7,7 +7,7 @@
     "start": "npx @11ty/eleventy --serve",
     "eslint:check": "npx eslint js",
     "eslint:fix": "npx eslint --fix js",
-    "test": "npx @11ty/eleventy && npx hint ./_site"
+    "test": "rm -r _site && npx @11ty/eleventy && npx hint ./_site"
   },
   "repository": {
     "type": "git",
