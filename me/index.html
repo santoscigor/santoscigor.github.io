@@ -2,15 +2,15 @@
 <!DOCTYPE html>
 <html lang="pt" dir="ltr">
     <head>
-        <title>Sobre mim | Igor Costa</title>
         <meta charset="UTF-8">
+        <title>Sobre mim | Igor Costa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
         <meta name="author" content="Igor Costa">
         <meta name="description" content="Seja bem vindo ao meu site! Aqui você descobrirá sobre mim.">
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700">
+        <link rel="stylesheet" crossorigin="anonymous" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" crossorigin="anonymous" href="https://fonts.googleapis.com/css?family=Roboto:700">
         <link rel="shortcut icon" href="img/favicon.png">
 
         <link rel="stylesheet" href="/css/site.css">
@@ -18,7 +18,7 @@
     <body>
         <header class="nav-down">
             <div class="header-container">
-                <h2>Igor Costa</h2>
+                <h1>Igor Costa</h1>
                 <nav aria-label="primary" class="navigation">
                     <ul>
                         <li><a href="/">Home</a></li>
@@ -44,16 +44,16 @@
         <img class="img-large" src="/img/eu.jpg" alt="Minha Foto"  width="962" height="292">
     </figure>
     <div id="buttons-panel" class="flex-center">
-        <button id="short-button">Breve</button>
-        <button id="long-button">Longo</button>
+        <button type="button" id="short-button">Breve</button>
+        <button type="button" id="long-button">Longo</button>
     </div>
-    <section id="bio-short" class="bio-short main-text">
+    <div id="bio-short" class="bio-short main-text">
         <p>
             Me chamo Igor, nasci em 1995, sou soteropolitano, amo pães, pai de planta, amo esportes coletivos, principalmente futebol, basquete e vôlei. 
             Eu adoro ler livros e artigos, principalmente de sociedades fora do eixo "ocidental".   
         </p>
-    </section>
-    <section id="bio-long" class="bio-long main-text">
+    </div>
+    <div id="bio-long" class="bio-long main-text">
         <p>
             Me chamo Igor, nasci em 1995, sou soteropolitano, amo pães, pai de planta, amo esportes coletivos, principalmente futebol, basquete e vôlei. 
             Eu adoro ler livros e artigos, principalmente de sociedades fora do eixo "ocidental". Hoje digo com a alegria que sou privilegiado de
@@ -69,7 +69,7 @@
 
             Adquiri o interesse por programação funcional, e gosto bastante de trabalhar com Elixir também.
         </p>
-    </section>
+    </div>
 </article>
 <script src="/js/me.js"></script>
         </main>
@@ -96,6 +96,6 @@
                 </ul>
             </div>
         </footer>
+        <script src="/js/site.js"></script>
     </body>
-    <script src="/js/site.js"></script>
 </html>
