@@ -19,6 +19,11 @@
     display: none;
 }
 
+.main-text > p {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
 #short-button {
     color: tomato;
     border: tomato solid 0.1rem;
