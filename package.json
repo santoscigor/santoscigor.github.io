@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/santoscigor/santoscigor.github.io#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy": "^1.0.2",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.1",
